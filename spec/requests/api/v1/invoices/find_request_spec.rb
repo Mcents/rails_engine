@@ -29,6 +29,8 @@ describe 'invoices finder' do
       invoice_json = JSON.parse(response.body)
 
       expect(response).to be_success
+      expect(invoice_json.first["id"]).to eq(2)
+      expect(invoice_json.count).to eq(4)
     end
   end
 end
