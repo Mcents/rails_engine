@@ -13,4 +13,18 @@ describe "transactions finder" do
       expect(transaction_json["result"]).to eq(transaction.result)
     end
   end
+
+  context "transaction/find_all?params" do
+    it "returns all transactions with params" do
+      transaction1 = create_list(:transaction, 3, result: "good")
+      transaction2 = create_list(:transaction, 3, result: "bad")
+
+      get "/api/v1/transactions/find_all?result=#{transaction1.first.result}"
+      t_json = JSON.parse(response.body)
+
+      expect(response).to be_success
+      expect(t_json.first["result"]).to eq("good")
+      expect(t_json.count).to eq(3)
+    end
+  end
 end
