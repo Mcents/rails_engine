@@ -19,17 +19,14 @@ describe 'invoices finder' do
 
   context 'invoice/find_all?params' do
     it 'returns all invoices with params' do
-      create_list(:customer, 2)
+      invoice1 = create_list(:invoice, 4, status: "shipped")
+      invoice2 = create_list(:invoice, 2, status: "cancelled")
 
-      invoice1 = create_list(:invoice, 4, customer_id: 2)
-      invoice2 = create_list(:invoice, 2, customer_id: 1)
-      invoice3 = create_list(:invoice, 1, customer_id: 1)
-
-      get "/api/v1/invoices/find_all?customer_id=#{invoice1.first.customer_id}"
+      get "/api/v1/invoices/find_all?status=#{invoice1.first.status}"
       invoice_json = JSON.parse(response.body)
 
       expect(response).to be_success
-      expect(invoice_json.first["id"]).to eq(2)
+      expect(invoice_json.first["status"]).to eq("shipped")
       expect(invoice_json.count).to eq(4)
     end
   end
