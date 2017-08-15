@@ -7,6 +7,10 @@ Rails.application.routes.draw do
       get '/random', to: 'random#show'
       end
 
+      namespace :transactions do
+        
+      end
+     resources :transactions, only: [:index, :show]
      resources :merchants, only: [:index, :show]
     end
   end
