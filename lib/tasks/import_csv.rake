@@ -28,6 +28,13 @@ namespace :import_csv do
    end
 
    
+   task items: :environment do 
+     csv_text = File.read('./data/items.csv')
+     csv = CSV.parse(csv_text, :headers => true)
+     csv.each do |row|
+       Item.create!(row.to_hash)
+     end
+   end
 
   task merchants: :environment do
     csv_text = File.read('./data/merchants.csv')
@@ -47,5 +54,5 @@ namespace :import_csv do
      end
    end
 
-  task :all => [:customers, :merchants, :invoices,  :transactions, :invoice_items]
+  task :all => [:customers, :merchants, :invoices, :items, :transactions, :invoice_items]
 end
