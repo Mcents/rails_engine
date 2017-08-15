@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :invoice_item do
-    invoice ""
-    item ""
+    item nil
+    invoice nil
     quantity 1
     unit_price 1
   end
