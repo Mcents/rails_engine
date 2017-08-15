@@ -12,6 +12,17 @@ describe "Transaction API" do
 
     expect(transactions.count).to eq(3)
   end
+
+  it "can get transaction by id" do
+    id = create(:transaction).id
+ 
+    get "/api/v1/transactions/#{id}"
+
+    transaction = JSON.parse(response.body)
+    
+    expect(response).to be_success
+    expect(transaction["id"]).to eq(id)
+  end
 end
 
 
