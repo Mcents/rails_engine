@@ -5,8 +5,8 @@ describe 'merchants items relationships' do
     it 'lists all items for given merchant' do
       merchant = create(:merchant)
       items = create_list(:item, 3, merchant_id: merchant.id)
-      # require "pry"; binding.pry
-      get api_v1_merchants_path(merchant, items)
+      
+      get "/api/v1/merchants/#{merchant.id}/items"
       merchant_items_json = JSON.parse(response.body)
 
       expect(response).to be_success
