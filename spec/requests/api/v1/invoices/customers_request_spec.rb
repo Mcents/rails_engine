@@ -6,7 +6,7 @@ describe 'invoices customers endpoint' do
       customer = create(:customer)
       invoice = create(:invoice, customer_id: customer.id)
 
-      get "/api/v1/invoices/#{invoice.id}/customers"
+      get "/api/v1/invoices/#{invoice.id}/customer"
 
       customers = JSON.parse(response.body)
 
