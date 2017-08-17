@@ -18,4 +18,18 @@ RSpec.describe Merchant, type: :model do
       expect(merchant.find_revenue).to eq(500.00)
     end
   end
+
+  context "favorite_customer" do
+    it "returns a merchants most had customer" do
+      merchant1, merchant2 = create_list(:merchant, 2)
+      customer1, customer2 = create_list(:customer, 2)
+      invoice1 = create(:invoice, merchant_id: merchant1.id, customer_id: customer1.id)
+      invoice2 = create(:invoice, merchant_id: merchant2.id, customer_id: customer2.id)
+      transaction = create(:transaction, invoice_id: invoice1.id, result: 'success')
+      transaction = create(:transaction, invoice_id: invoice1.id, result: 'success')
+      transaction = create(:transaction, invoice_id: invoice2.id, result: 'success')
+
+      expect(merchant1.favorite_customer.id).to eq(customer1.id)
+    end
+  end
 end
