@@ -55,7 +55,7 @@ describe "merchants revenue endpoint" do
       revenue_json = JSON.parse(response.body)
 
       expect(response).to be_success
-      expect(revenue_json["revenue"]).to eq("16.0")
+      expect(revenue_json["total_revenue"]).to eq("16.0")
     end
   end
 
