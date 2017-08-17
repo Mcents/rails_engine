@@ -1,6 +1,7 @@
 class InvoiceItem < ApplicationRecord
   belongs_to :item, required: false
   belongs_to :invoice, required: false
+  has_many :transactions, through: :invoice_items, source: :items
 
   def self.dollar_to_cents_all(params)
     where(unit_price: params.gsub!(/[^0-9A-Za-a]/,''))
