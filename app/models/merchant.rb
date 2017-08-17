@@ -5,19 +5,24 @@ class Merchant < ApplicationRecord
   has_many :transactions, through: :invoices
 
   def favorite_customer
-    # require "pry"; binding.pry
     customers.joins(:transactions)
     .merge(Transaction.successful)
     .group(:id)
     .order('count(*) DESC')
     .first
+
+  def find_revenue(date = nil)
+    invoices.joins(:invoice_items, :transactions)
+    .merge(Invoice.date_match(date))
+    .merge(Transaction.successful)
+    .sum("quantity * unit_price")
   end
 
-  # def favorite_customer
-  #   transactions.successful
-  #   .group(:customer_id)
-  #   .order('count_id desc')
-  #   .count('id')
-  #   .keys[0]
-  # end
+  def self.most_items_sold(quantity_input = nil)
+    joins(invoices: [:transactions, :invoice_items])
+    .merge(Transaction.successful)
+    .group(:id)
+    .order("sum(quantity) DESC")
+    .limit(quantity_input)
+  end
 end
