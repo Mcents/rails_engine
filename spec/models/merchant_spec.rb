@@ -32,4 +32,10 @@ RSpec.describe Merchant, type: :model do
       expect(merchant1.favorite_customer.id).to eq(customer1.id)
     end
   end
+
+  context "most_items_sold" do
+    it "returns the most items sold for merchant" do
+
+    end
+  end
 end
