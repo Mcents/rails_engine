@@ -1,6 +1,7 @@
 class Merchant < ApplicationRecord
   has_many :items
   has_many :invoices
+  has_many :invoice_items, through: :invoices
   has_many :customers, through: :invoices
   has_many :transactions, through: :invoices
 
@@ -25,5 +26,12 @@ class Merchant < ApplicationRecord
     .group(:id)
     .order("sum(quantity) DESC")
     .limit(quantity_input)
+  end
+
+  def self.total_revenue(date = nil)
+    joins(:invoices, :invoice_items, :transactions)
+    .merge(Invoice.date_match(date))
+    .merge(Transaction.successful)
+    .sum("quantity * unit_price")
   end
 end
