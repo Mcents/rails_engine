@@ -10,6 +10,7 @@ class Merchant < ApplicationRecord
     .group(:id)
     .order('count(*) DESC')
     .first
+  end
 
   def find_revenue(date = nil)
     invoices.joins(:invoice_items, :transactions)
