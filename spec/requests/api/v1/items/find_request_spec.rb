@@ -3,7 +3,8 @@ require 'rails_helper'
 describe 'items finder' do
   context 'item/find?params' do
     it 'returns a specific item' do
-      item = create(:item)
+      merchant = create(:merchant)
+      item = create(:item, merchant_id: merchant.id)
 
       get "/api/v1/items/find?name=#{item.name}"
 
@@ -16,9 +17,10 @@ describe 'items finder' do
 
   context 'items/find_all?params' do
     it 'returns all items with params' do
-      item1 = create_list(:item, 4, name: "One")
-      item2 = create_list(:item, 4, name: "Two")
-      item3 = create_list(:item, 4, name: "Three")
+      merchant = create(:merchant)
+      item1 = create_list(:item, 4, name: "One", merchant_id: merchant.id)
+      item2 = create_list(:item, 4, name: "Two", merchant_id: merchant.id)
+      item3 = create_list(:item, 4, name: "Three", merchant_id: merchant.id)
 
       get "/api/v1/items/find_all?name=#{item1.first.name}"
       item_json = JSON.parse(response.body)

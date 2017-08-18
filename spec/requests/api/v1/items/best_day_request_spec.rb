@@ -3,7 +3,8 @@ require 'rails_helper'
 describe "items best_day" do
   context "items/:id/best_day" do
     it "returns the day with the most transactions" do
-      item1, item2 = create_list(:item, 2)
+      merchant = create(:merchant)
+      item1, item2 = create_list(:item, 2, merchant_id: merchant.id)
       invoice1 = create(:invoice, created_at: '2011-02-11 00:52:02 UTC')
       invoice2 = create(:invoice, created_at: '2012-02-11 00:52:02 UTC')
       invoice3 = create(:invoice, created_at: '2012-03-11 00:52:02 UTC')

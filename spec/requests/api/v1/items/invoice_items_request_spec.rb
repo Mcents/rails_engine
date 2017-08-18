@@ -3,9 +3,10 @@
  describe "items invoice_items" do
    context "items/:id/invoice_items" do
      it "returns all items invoice items" do
-       item = create(:item)
+       merchant = create(:merchant)
+       item = create(:item, merchant_id: merchant.id)
        create_list(:invoice_item, 3, item_id: item.id)
-       
+
        get "/api/v1/items/#{item.id}/invoice_items"
 
        invoice_items = JSON.parse(response.body)
