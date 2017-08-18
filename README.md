@@ -8,15 +8,15 @@ The goal of Rails Engine was to use both Active Record and Rails to build a JSON
 
 * To Use
 
-1. git clone git@github.com:jimszalew/rails_engine.git
+1. 'git clone git@github.com:jimszalew/rails_engine.git'
 
-2. bundle
+2. 'bundle'
 
-3. rake db:create db:migrate
+3. 'rake db:create db:migrate'
 
-4. rake load_csv:all
+4. 'rake load_csv:all'
 
 * To load Test suite
 
-1. rspec
+1. 'rspec'
 
