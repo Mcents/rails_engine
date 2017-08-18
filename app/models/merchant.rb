@@ -45,22 +45,22 @@ class Merchant < ApplicationRecord
 
   def customers_with_pending_invoices
     invoices.find_by_sql("
-     SELECT m.id, c.* FROM merchants m
-     INNER JOIN invoices i
-     ON m.id = i.merchant_id
-     INNER JOIN customers c
-     ON c.id = i.customer_id
-     INNER JOIN transactions t
-     ON i.id = t.invoice_id
-     WHERE m.id = #{self.id}
+     SELECT merchant.id, customer.* FROM merchants
+     INNER JOIN invoices
+     ON merchant.id = invoice.merchant_id
+     INNER JOIN customers
+     ON customer.id = invoice.customer_id
+     INNER JOIN transactions
+     ON invoice.id = transaction.invoice_id
+     WHERE merchant.id = #{self.id}
      EXCEPT
-     SELECT m.id, c.* FROM merchants m
-     INNER JOIN invoices i
-     ON m.id = i.merchant_id
-     INNER JOIN customers c
-     ON c.id = i.customer_id
-     INNER JOIN transactions t
-     ON i.id = t.invoice_id
+     SELECT merchant.id, customer.* FROM merchants
+     INNER JOIN invoices
+     ON merchant.id = invoice.merchant_id
+     INNER JOIN customers
+     ON customer.id = invoice.customer_id
+     INNER JOIN transactions
+     ON invoice.id = transaction.invoice_id
      WHERE t.result = 'success'
    ")
   end
