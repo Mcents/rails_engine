@@ -5,7 +5,6 @@ begin
         SimpleCov.start 'rails'
           puts "required simplecov"
   end
-  end
   load File.expand_path('../spring', __FILE__)
 rescue LoadError => e
   raise unless e.message.include?('spring')

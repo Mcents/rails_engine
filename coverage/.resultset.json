@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/environment.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/application.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/application.rb": [
         1,
         null,
         1,
@@ -43,12 +43,12 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/boot.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/environments/test.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/environments/test.rb": [
         1,
         null,
         null,
@@ -92,7 +92,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/initializers/application_controller_renderer.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/initializers/application_controller_renderer.rb": [
         null,
         null,
         null,
@@ -100,25 +100,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/initializers/backtrace_silencers.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/initializers/cors.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -127,13 +109,31 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/initializers/filter_parameter_logging.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/initializers/cors.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/initializers/inflections.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -151,13 +151,13 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/initializers/mime_types.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/initializers/wrap_parameters.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -173,7 +173,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/config/routes.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/config/routes.rb": [
         1,
         1,
         1,
@@ -181,32 +181,6 @@
         1,
         1,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
         1,
         1,
         1,
@@ -224,6 +198,35 @@
         1,
         1,
         1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null,
         1,
@@ -242,28 +245,29 @@
         1,
         null,
         null,
-        null,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/models/customer.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/models/application_record.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/models/customer.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/models/invoice_item.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/models/invoice_item.rb": [
+        1,
         1,
         1,
         1,
@@ -279,7 +283,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/models/invoice.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/models/invoice.rb": [
         1,
         1,
         1,
@@ -296,21 +300,22 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/models/item.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/models/item.rb": [
         1,
         1,
         1,
         1,
-        null,
         1,
-        0,
-        null,
         null,
         1,
         0,
         null,
         null,
         1,
+        0,
+        null,
+        null,
+        1,
         null,
         null,
         null,
@@ -324,10 +329,18 @@
         null,
         1,
         null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/models/merchant.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/models/merchant.rb": [
+        1,
         1,
         1,
         1,
@@ -356,9 +369,24 @@
         null,
         4,
         null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/models/transaction.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/models/transaction.rb": [
         1,
         1,
         null,
@@ -366,12 +394,12 @@
         0,
         null,
         null,
-        15,
+        16,
         1,
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/customers/favorite_merchant_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/customers/favorite_merchant_controller.rb": [
         1,
         null,
         1,
@@ -379,16 +407,16 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/application_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/application_controller.rb": [
         1,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/serializers/merchant_serializer.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/merchant_serializer.rb": [
         1,
         1,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/customers/find_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/customers/find_controller.rb": [
         1,
         null,
         1,
@@ -406,34 +434,12 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/serializers/customer_serializer.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/customer_serializer.rb": [
         1,
         1,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/customers/invoices_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/serializers/invoice_serializer.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/customers/random_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/customers/transactions_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/customers/invoices_controller.rb": [
         1,
         null,
         1,
@@ -441,17 +447,13 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/serializers/transaction_serializer.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/invoice_serializer.rb": [
         1,
         1,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/customers_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/customers/random_controller.rb": [
         1,
-        null,
-        1,
-        1,
-        null,
         null,
         1,
         1,
@@ -459,7 +461,33 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoice_items/find_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/customers/transactions_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/transaction_serializer.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/customers_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoice_items/find_controller.rb": [
         1,
         null,
         1,
@@ -485,7 +513,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/serializers/invoice_item_serializer.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/invoice_item_serializer.rb": [
         1,
         1,
         null,
@@ -494,7 +522,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoice_items/invoice_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoice_items/invoice_controller.rb": [
         1,
         null,
         1,
@@ -502,7 +530,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoice_items/item_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoice_items/item_controller.rb": [
         1,
         null,
         1,
@@ -510,45 +538,45 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/serializers/item_serializer.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/item_serializer.rb": [
         1,
         1,
         null,
         1,
-        17,
-        null,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoice_items/random_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
+        19,
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoice_items_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoice_items/random_controller.rb": [
         1,
         null,
         1,
         1,
         null,
-        null,
-        1,
-        1,
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoices/customer_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoice_items_controller.rb": [
         1,
+        null,
+        1,
+        1,
+        null,
         null,
         1,
         1,
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoices/find_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoices/customer_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoices/find_controller.rb": [
         1,
         null,
         1,
@@ -566,7 +594,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoices/invoice_items_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoices/invoice_items_controller.rb": [
         1,
         null,
         1,
@@ -574,7 +602,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoices/items_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoices/items_controller.rb": [
         1,
         null,
         1,
@@ -582,7 +610,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoices/merchant_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoices/merchant_controller.rb": [
         1,
         null,
         1,
@@ -590,16 +618,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoices/random_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoices/transactions_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoices/random_controller.rb": [
         1,
         null,
         1,
@@ -608,7 +627,16 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/invoices_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoices/transactions_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/invoices_controller.rb": [
         1,
         null,
         1,
@@ -620,7 +648,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/items/best_day_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/items/best_day_controller.rb": [
         1,
         null,
         1,
@@ -628,7 +656,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/serializers/best_day_serializer.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/best_day_serializer.rb": [
         1,
         1,
         null,
@@ -637,7 +665,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/items/find_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/items/find_controller.rb": [
         1,
         null,
         1,
@@ -663,7 +691,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/items/invoice_items_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/items/invoice_items_controller.rb": [
         1,
         null,
         1,
@@ -671,7 +699,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/items/merchant_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/items/merchant_controller.rb": [
         1,
         null,
         1,
@@ -679,7 +707,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/items/most_items_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/items/most_items_controller.rb": [
         1,
         null,
         1,
@@ -689,7 +717,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/items/random_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/items/random_controller.rb": [
         1,
         null,
         1,
@@ -697,7 +725,17 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/items_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/items/revenue_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/items_controller.rb": [
         1,
         null,
         1,
@@ -709,7 +747,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/merchants/customers_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants/customers_controller.rb": [
         1,
         null,
         1,
@@ -718,7 +756,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/merchants/find_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants/find_controller.rb": [
         1,
         null,
         1,
@@ -736,7 +774,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/merchants/invoices_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants/invoices_controller.rb": [
         1,
         null,
         1,
@@ -744,7 +782,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/merchants/items_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants/items_controller.rb": [
         1,
         null,
         1,
@@ -752,7 +790,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/merchants/most_items_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants/most_items_controller.rb": [
         1,
         null,
         1,
@@ -762,7 +800,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/merchants/random_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants/random_controller.rb": [
         1,
         null,
         1,
@@ -771,7 +809,23 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/merchants/revenue_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants/revenue_controller.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/revenue_serializer.rb": [
+        1,
         1,
         null,
         1,
@@ -780,48 +834,57 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/serializers/revenue_serializer.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/serializers/total_revenue_serializer.rb": [
         1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants/quantity_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/merchants_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/transactions/find_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
         1,
         null,
         1,
         2,
-        2,
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/merchants_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/transactions/find_controller.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        2,
-        null,
-        null
-      ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/transactions/invoice_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/transactions/invoice_controller.rb": [
         1,
         null,
         1,
@@ -829,7 +892,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/transactions/random_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/transactions/random_controller.rb": [
         1,
         null,
         1,
@@ -838,7 +901,7 @@
         null,
         null
       ],
-      "/Users/michaelcentrelli/Desktop/rails_engine/app/controllers/api/v1/transactions_controller.rb": [
+      "/Users/jimszalewski/turing/3module/projects/rails_engine/app/controllers/api/v1/transactions_controller.rb": [
         1,
         null,
         1,
@@ -851,6 +914,6 @@
         null
       ]
     },
-    "timestamp": 1503021977
+    "timestamp": 1503028480
   }
 }
