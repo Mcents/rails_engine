@@ -14,7 +14,7 @@ The goal of Rails Engine was to use both Active Record and Rails to build a JSON
 
 3. `rake db:create db:migrate`
 
-4. `rake load_csv:all`
+4. `rake import_csv:all`
 
 * To load Test suite
 
