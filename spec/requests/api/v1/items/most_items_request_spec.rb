@@ -3,9 +3,10 @@ require 'rails_helper'
 describe 'items most items by quantity' do
   context 'items/most_items?quantity' do
     it 'returns the top x items by total sold' do
-      item = create(:item)
-      item1 = create(:item)
-      item2 = create(:item)
+      merchant = create(:merchant)
+      item = create(:item, merchant_id: merchant.id)
+      item1 = create(:item, merchant_id: merchant.id)
+      item2 = create(:item, merchant_id: merchant.id)
       invoice = create(:invoice)
       invoice1 = create(:invoice)
       invoice2 = create(:invoice)

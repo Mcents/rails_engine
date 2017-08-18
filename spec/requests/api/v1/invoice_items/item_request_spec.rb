@@ -3,7 +3,8 @@ require 'rails_helper'
 describe "invoice items item" do
   context "invoice_items/:id/item" do
     it "returns an invoice items item" do
-      item = create(:item)
+      merchant = create(:merchant)
+      item = create(:item, merchant_id: merchant.id)
       invoice_item = create(:invoice_item, item_id: item.id)
 
       get "/api/v1/invoice_items/#{invoice_item.id}/item"
