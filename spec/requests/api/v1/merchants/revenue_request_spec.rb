@@ -78,8 +78,8 @@ describe "merchants revenue endpoint" do
       top_merchants_json = JSON.parse(response.body)
 
       expect(response).to be_success
-      expect(top_merchants_json.first["id"]).to eq(merchant3.id)
-      expect(top_merchants_json.last["id"]).to eq(merchant1.id)
+      expect(top_merchants_json.first["id"]).to eq(merchant1.id)
+      expect(top_merchants_json.last["id"]).to eq(merchant3.id)
     end
   end
 end
