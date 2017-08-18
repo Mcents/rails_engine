@@ -3,9 +3,10 @@ require 'rails_helper'
 describe "items revenue endpoint" do
   context "items/most_revenue?quantity=x" do
     it "returns the top x items ranked by total revenue" do
-      item1 = create(:item)
-      item2 = create(:item)
-      item3 = create(:item)
+      merchant = create(:merchant)
+      item1 = create(:item, merchant_id: merchant.id)
+      item2 = create(:item, merchant_id: merchant.id)
+      item3 = create(:item, merchant_id: merchant.id)
       invoice1 = create(:invoice)
       invoice2 = create(:invoice)
       invoice3 = create(:invoice)

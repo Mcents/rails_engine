@@ -2,7 +2,8 @@ require 'rails_helper'
 
 describe 'Items API' do
   it 'sends a list of items' do
-    create_list(:item, 3)
+    merchant = create(:merchant)
+    create_list(:item, 3, merchant_id: merchant.id)
 
     get '/api/v1/items'
 
@@ -14,7 +15,8 @@ describe 'Items API' do
   end
 
   it "can get one item by its id" do
-    id = create(:item).id
+    merchant = create(:merchant)
+    id = create(:item, merchant_id: merchant.id).id
 
     get "/api/v1/items/#{id}"
 
