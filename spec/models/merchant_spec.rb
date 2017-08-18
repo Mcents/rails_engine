@@ -35,7 +35,19 @@ RSpec.describe Merchant, type: :model do
 
   context "most_items_sold" do
     it "returns the most items sold for merchant" do
+      merchant = create(:merchant)
+      merchant1 = create(:merchant)
+      invoice = create(:invoice, merchant_id: merchant.id)
+      invoice1 = create(:invoice, merchant_id: merchant1.id)
+      transaction = create(:transaction, invoice_id: invoice.id, result: "success")
+      transaction = create(:transaction, invoice_id: invoice1.id, result: "success")
+      invoice_item = create(:invoice_item, invoice_id: invoice.id, quantity: 50)
+      invoice_item = create(:invoice_item, invoice_id: invoice1.id, quantity: 2)
+      invoice_item = create(:invoice_item, invoice_id: invoice1.id, quantity: 600)
 
+      expect(Merchant.most_items_sold.first.id).to eq(merchant1.id)
+      expect(Merchant.most_items_sold(10).first.id).to eq(merchant1.id)
+      expect(Merchant.most_items_sold(10).second.id).to eq(merchant.id)
     end
   end
 end
